@@ -1,5 +1,5 @@
 const imageContainer = document.querySelector("#image-container");
-const count = 10;
+const count = 30;
 const apiKey = "PeC8uf2IiHe_ph90j8hwNXKiPGZfiQxvrTKfgb5Hx-s";
 const loader=document.querySelector("#loader")
 let ready = false;
