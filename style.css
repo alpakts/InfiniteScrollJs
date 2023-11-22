@@ -38,13 +38,34 @@ h1{
     width: 100%;
     margin-top: 5px;
 }
-
+.github-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+footer{
+    position: fixed;
+    font-size: 1.3rem;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.fa-heart{
+    color: red;
+}
 @media screen and (max-width:600px) {
     .image-container{
         margin: 10px 10%;
     }
     h1{
         font-size: 1rem !important
+    }
+    footer{
+        position: fixed;
+        font-size: .6rem;
+        bottom: 0;
     }
         
 }
